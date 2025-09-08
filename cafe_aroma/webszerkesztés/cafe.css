@@ -2,6 +2,9 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f2e3;
 }
+p{
+    text-align: justify;
+}
 
 header {
     height: 300px; 
@@ -39,6 +42,8 @@ h1, h2, h4 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+    align-items: end;
+    text-align: right
 }
