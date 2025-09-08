@@ -62,13 +62,13 @@
             <!-- Menü -->
             <h2 id="menu" class="my-4">Menünk</h2>
             <div class="row">
-                <div class="col-xl-3 col-md-6 menu-kv">
+                <div class="col-xl-4 col-md-6">
                     <h4>Espresso</h4>
                     <div>
-                    <p><span >Prémium minőségű kávébabok:</span> Kizárólag magas minőségű,
+                    <p><span class="menu-kv">Prémium minőségű kávébabok:</span> Kizárólag magas minőségű,
                         gondosan válogatott arabica babokból készül, amelyeket a világ legjobb termőterületeiről
                         szerezünk be. Ezek a babok rendkívüli ízgazdagságot és aromát biztosítanak. </p>
-                    <p><span>Kézműves pörkölés:</span> A kávébabokat helyben, kis tételben,
+                    <p><span class="menu-kv">Kézműves pörkölés:</span> A kávébabokat helyben, kis tételben,
                         kézműves módszerrel pörköljük, ami lehetővé teszi, hogy minden egyes bab a lehető
                         legtökéletesebb ízprofilját fejthesse ki. A pörkölési folyamat során különös figyelmet fordítunk
                         arra, hogy a babok egyenletesen pörkölődjenek, így biztosítva az espresso minden csészéjének
@@ -76,18 +76,18 @@
                     </div>
 
                 </div>
-                <div class="col-xl-3 ml-3 col-md-6 menu-kv">
+                <div class="col-xl-4 col-md-6 ">
                     <h4>Cappuccino</h4>
-                    <p><span>Gazdag ízvilág:</span> A cappuccino egy klasszikus olasz
+                    <p><span class="menu-kv">Gazdag ízvilág:</span> A cappuccino egy klasszikus olasz
                         kávékülönlegesség, amely egyenlő részekből áll espressóból, meleg tejhabból és gőzölt tejfölből.
                         Az ízletes espresso alapjának és a lágy tejkomponensek harmonikus összeolvadása tökéletes
                         reggeli italt teszi belőle. </p>
-                    <p><span>Egyedi élmény:</span> Minden csésze cappuccino egyedi, a barista
+                    <p><span class="menu-kv">Egyedi élmény:</span> Minden csésze cappuccino egyedi, a barista
                         szakértelmétől függően. Az ital tetejére gyakran színes mintákat, például szíveket vagy
                         leveleket alkotnak a tejhabbal, ami nemcsak ízében, de látványában is maradandó élményt nyújt.
                     </p>
                 </div>
-                <div class="ml-3">
+                <div class="col-xl-4 col-md-6">
                     <h4>Kávé árlista</h4>
                     <table class="table ">
                         <thead class="bg-dark text-white">
@@ -125,7 +125,7 @@
             <!-- Elérhetőségek -->
             <h2 id="contact" class="my-4">Elérhetőségek</h2>
 
-            <div class="row">
+            <div class="row d-flex justify-content-between">
                 <div>
                     <ul>
                     <li>Üzemeltető: Horváth Anna</li>
@@ -135,15 +135,15 @@
                     </ul>
                 </div>
                 <!-- Üzenetküldő űrlap -->
-                <div>
-                    <form>
+                <div class=" d-flex ml-3 ">
+                    <form class="urlap">
                         <div class="form-group">
                             <label for="name">Név:</label>
-                            <input type="text" id="name" required>
+                            <input class="form-control" type="text" id="name" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Üzenet:</label>
-                            <textarea id="message" rows="3" required></textarea>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Küldés</button>
                     </form>
@@ -164,7 +164,7 @@
         </div>
         <!-- Lábléc -->
         <footer class="p-2">
-
+            <p class="text-center">Készítette: <a class="footer-link" target="_blank" href="https://bankitatabanya.hu/">Valakovics Ádám</a></p>
         </footer>
     </div>
 </body>
