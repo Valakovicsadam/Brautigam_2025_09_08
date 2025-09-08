@@ -47,3 +47,10 @@ img {
     align-items: end;
     text-align: right
 }
+.interior{
+    float: right;
+    width: 50%;
+}
+.menu-kv{
+    font-weight: bold;
+}
